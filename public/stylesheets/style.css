@@ -1,0 +1,60 @@
+body {
+  width: 60%;
+  margin: 50px auto;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+.wrapper{
+  display: flex;
+}
+a {
+  color: #00B7FF;
+}
+.title{
+  font-size: 2.5rem;
+}
+.title::after{
+  content: '(prototype)';
+  font-size: 0.8rem;
+}
+.title a{
+  text-decoration: none;
+  color:#222222;
+}
+p .talk{
+  margin: 30px, 30px;
+}
+.navbar{
+  width: auto;
+  height: 20px;
+  padding-left: 0px;
+}
+.navbar li{
+  float: left;
+  margin-right: 30px;
+  list-style-type: none;
+}
+.article{
+  width: 80%;
+}
+.ad{
+  width: 20%;
+}
+.message{
+  font-size: 19px;
+}
+.info{
+  margin:1px;
+}
+.talk{
+  margin-bottom: 20px;
+}
+#output{
+  width: 80%;
+  height: 200px;
+  border-style: solid;
+  border-width: thin;
+}
+textarea{
+  width: 80%;
+}
